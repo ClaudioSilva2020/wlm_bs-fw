@@ -14,11 +14,16 @@
 
 #include "driver/gpio.h"
 #include "driver/timer.h"
+#include "esp_err.h"
 
 #define ECHO_PIN    GPIO_NUM_2
 #define TRIGGER_PIN GPIO_NUM_0
 
-typedef gpio_config_t sensor_config_t
+#define LEVEL_HIGH  1
+#define LEVEL_LOW   0
+
+typedef gpio_config_t sensor_config_t;
+typedef timer_config_t sensor_timer_config_t;
 
 typedef enum status_sensor
 {
@@ -35,5 +40,7 @@ typedef struct sensor
     uint32_t distance;    
 } sensor_t;
 
+esp_err_t sensor_gpio_config();
+esp_err_t sensor_timer_config(sensor_timer_config_t *sensor_timer_cfg);
 
 #endif
