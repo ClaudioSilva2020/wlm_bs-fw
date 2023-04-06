@@ -8,7 +8,7 @@
 	"installers" : [],
 	"paths" : 
 	{
-		"build" : "driver/src",
-		"source" : "driver/src"
+		"build" : "drive/src",
+		"source" : "drive/src"
 	}
 }

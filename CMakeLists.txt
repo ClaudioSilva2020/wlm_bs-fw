@@ -5,5 +5,5 @@ cmake_minimum_required(VERSION 3.5)
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
 project(wlm-sb)
 
-add_subdirectory(driver/src)
-add_subdirectory(driver/inc)
+add_subdirectory(drive/src)
+add_subdirectory(drive/inc)

@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "driver/src/libLibrary.a"
+			"path" : "drive/src/libLibrary.a"
 		}
 	],
 	"backtrace" : 1,
@@ -16,8 +16,8 @@
 		],
 		"files" : 
 		[
-			"driver/src/CMakeLists.txt",
-			"driver/inc/CMakeLists.txt"
+			"drive/src/CMakeLists.txt",
+			"drive/inc/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -54,7 +54,7 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "/home/claudio/esp/wlm_sb_fw/driver/inc/."
+					"path" : "/home/claudio/esp/wlm_sb_fw/drive/inc/."
 				}
 			],
 			"language" : "C",
@@ -64,13 +64,13 @@
 			]
 		}
 	],
-	"id" : "Library::@23d41408e328ef9a54d6",
+	"id" : "Library::@e6a79208cc20af1b4ec8",
 	"name" : "Library",
 	"nameOnDisk" : "libLibrary.a",
 	"paths" : 
 	{
-		"build" : "driver/src",
-		"source" : "driver/src"
+		"build" : "drive/src",
+		"source" : "drive/src"
 	},
 	"sourceGroups" : 
 	[
@@ -87,7 +87,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "driver/src/sensor.c",
+			"path" : "drive/src/sensor.c",
 			"sourceGroupIndex" : 0
 		}
 	],

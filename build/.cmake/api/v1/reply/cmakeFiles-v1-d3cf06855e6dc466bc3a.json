@@ -845,6 +845,20 @@
 			"path" : "/usr/share/cmake-3.22/Modules/CMakeTestASMCompiler.cmake"
 		},
 		{
+			"path" : ".git/HEAD"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/claudio/esp/ESP8266_RTOS_SDK/tools/cmake/third_party/GetGitRevisionDescription.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/git-data/grabRef.cmake"
+		},
+		{
+			"path" : ".git/refs/heads/develop"
+		},
+		{
 			"isExternal" : true,
 			"path" : "/home/claudio/esp/ESP8266_RTOS_SDK/tools/kconfig_new/config.env.in"
 		},
@@ -1238,10 +1252,10 @@
 			"path" : "main/CMakeLists.txt"
 		},
 		{
-			"path" : "driver/src/CMakeLists.txt"
+			"path" : "drive/src/CMakeLists.txt"
 		},
 		{
-			"path" : "driver/inc/CMakeLists.txt"
+			"path" : "drive/inc/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

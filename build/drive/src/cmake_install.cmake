@@ -1,4 +1,4 @@
-# Install script for directory: /home/claudio/esp/wlm_sb_fw
+# Install script for directory: /home/claudio/esp/wlm_sb_fw/drive/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -37,21 +37,3 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/home/claudio/esp/xtensa-lx106-elf/bin/xtensa-lx106-elf-objdump")
 endif()
 
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for each subdirectory.
-  include("/home/claudio/esp/wlm_sb_fw/build/esp-idf/cmake_install.cmake")
-  include("/home/claudio/esp/wlm_sb_fw/build/drive/src/cmake_install.cmake")
-  include("/home/claudio/esp/wlm_sb_fw/build/drive/inc/cmake_install.cmake")
-
-endif()
-
-if(CMAKE_INSTALL_COMPONENT)
-  set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
-else()
-  set(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
-endif()
-
-string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
-       "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/claudio/esp/wlm_sb_fw/build/${CMAKE_INSTALL_MANIFEST}"
-     "${CMAKE_INSTALL_MANIFEST_CONTENT}")

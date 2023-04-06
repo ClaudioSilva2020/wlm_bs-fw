@@ -867,30 +867,30 @@
 					]
 				},
 				{
-					"build" : "driver/src",
-					"jsonFile" : "directory-driver.src-311ff57eb7b23ba63700.json",
+					"build" : "drive/src",
+					"jsonFile" : "directory-drive.src-1dd59cfb2ebb49350e4f.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.5"
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 0,
-					"source" : "driver/src",
+					"source" : "drive/src",
 					"targetIndexes" : 
 					[
 						0
 					]
 				},
 				{
-					"build" : "driver/inc",
-					"jsonFile" : "directory-driver.inc-1a0a6ce425d7d36d188d.json",
+					"build" : "drive/inc",
+					"jsonFile" : "directory-drive.inc-7801cea54efd713ee521.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.5"
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 0,
-					"source" : "driver/inc"
+					"source" : "drive/inc"
 				}
 			],
 			"name" : "",
@@ -1098,8 +1098,8 @@
 			[
 				{
 					"directoryIndex" : 51,
-					"id" : "Library::@23d41408e328ef9a54d6",
-					"jsonFile" : "target-Library-42c7a9546f0e2c91c6d2.json",
+					"id" : "Library::@e6a79208cc20af1b4ec8",
+					"jsonFile" : "target-Library-43c7bd07150a164223f8.json",
 					"name" : "Library",
 					"projectIndex" : 0
 				},
@@ -1428,7 +1428,7 @@
 				{
 					"directoryIndex" : 22,
 					"id" : "__idf_app_update::@cc3b426666063acc9674",
-					"jsonFile" : "target-__idf_app_update-a8e9ed02b97c9e0ca459.json",
+					"jsonFile" : "target-__idf_app_update-8e2ccdbdaeb07406dfa8.json",
 					"name" : "__idf_app_update",
 					"projectIndex" : 1
 				},
